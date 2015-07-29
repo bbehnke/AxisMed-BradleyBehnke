@@ -1,0 +1,31 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+        xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <ui:with field="res" type="com.bradleybehnke.axismed.client.resources.AppResources"/>
+    <g:HTMLPanel>
+        <div class="{res.style.hobbyOuter}">
+            <div class="{res.style.hobbyMiddle}" >
+                <div class="{res.style.hobbyInner}">
+                    <table style="width:100%">
+                        <tr>
+                            <td><g:Image ui:field="fpvImage" addStyleNames="{res.style.hobby1Image}" title="FPV Racing"
+                                         altText="FPV Racing"></g:Image></td>
+                            <td>
+                                <h3>FPV Racing</h3>
+                                <p>
+                                    FPV (first person view) quadcopter racing has become the latest craze in the RC
+                                    community. Flying one of these small racers is a one of a kind experience with out
+                                    of body phenomena and rushes of adrenaline. I found this hobby through the many
+                                    YouTube videos of high speed races, close calls, and crashes. Currently I only fly
+                                    recreationally, but due to its recent increase in popularity, there are now racing
+                                    leagues which I hope to soon compete in. Minimal cost and great online communities
+                                    make this hobby a very rewarding experience.
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

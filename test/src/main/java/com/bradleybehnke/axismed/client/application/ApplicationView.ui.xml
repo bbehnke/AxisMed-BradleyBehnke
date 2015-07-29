@@ -1,0 +1,17 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+        xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <ui:with field="res" type="com.bradleybehnke.axismed.client.resources.AppResources"/>
+
+
+    <g:HTMLPanel>
+            <div class="{res.style.header}">
+                <a href="#HOME"><span class="{res.style.name}">Bradley Behnke</span></a>
+                <a href="#HOME"><g:Button ui:field="btnHome" addStyleNames="{res.style.btnHome}">Home</g:Button></a>
+                <a href="#HOBBY1"><g:Button ui:field="btnHobby1" addStyleNames="{res.style.btnHobby1}">FPV Racing</g:Button></a>
+                <a href="#HOBBY2"><g:Button ui:field="btnHobby2" addStyleNames="{res.style.btnHobby2}">Mountain Biking</g:Button></a>
+            </div>
+        <g:SimplePanel ui:field="mainContent"/>
+        
+    </g:HTMLPanel>
+</ui:UiBinder>

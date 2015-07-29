@@ -1,0 +1,51 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+        xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:with field="res" type="com.bradleybehnke.axismed.client.resources.AppResources"/>
+    <g:HTMLPanel>
+        <table class="{res.style.hobbyTable}">
+            <tr>
+                <td>
+                <div class="{res.style.hobbyMiddleSmall}" >
+                    <div class="{res.style.hobbyInnerSmall}">
+                        <table style="width:100%">
+                            <tr>
+                                <td><g:Image ui:field="fpvImageSmall" addStyleNames="{res.style.hobbyImageSmall}" title="FPV Racing"
+                                             altText="FPV Racing"></g:Image></td>
+                                <td>
+                                    <a href="#HOBBY1">FPV Racing</a>
+                                    <p>
+                                        FPV (first person view) quadcopter racing has become the latest craze in the RC
+                                        community. Flying one of these small racers is a one of a kind experience with out
+                                        of body phenomena and rushes of adrenaline. I found this hobby through the many
+                                        YouTube videos...
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+                <td>
+                    <div class="{res.style.hobbyMiddleEndSmall}" >
+                        <div class="{res.style.hobbyInnerSmall}">
+                            <table style="width:100%">
+                                <tr>
+                                    <td><g:Image ui:field="mBikeImageSmall" addStyleNames="{res.style.hobbyImageSmall}" title="FPV Racing"
+                                                 altText="FPV Racing"></g:Image></td>
+                                    <td>
+                                        <a href="#HOBBY2">Mountain Biking</a>
+                                        <p>
+                                            Mountain biking is one of my favorite ways to get into nature and stay in shape.
+                                            San Diego has countless hiking/biking trails throughout the county, which allow for
+                                            any type of ride I am looking for, whether it be scenic or pure heart pumping exercise.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </g:HTMLPanel>
+</ui:UiBinder>

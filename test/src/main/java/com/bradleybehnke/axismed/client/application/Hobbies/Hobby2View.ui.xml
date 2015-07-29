@@ -1,0 +1,37 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+        xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <ui:with field="res" type="com.bradleybehnke.axismed.client.resources.AppResources"/>
+    <g:HTMLPanel>
+        <div class="{res.style.hobby2Outer}">
+            <div class="{res.style.hobby2Middle}">
+                <h3>Mountian Biking</h3>
+                <div class="{res.style.hobby2Inner}">
+                    <form>
+                        <table>
+                            <tr>
+                                <td>
+                                    <g:Label ui:field="lblName" text="Name" addStyleNames="{res.style.lblName}"/>
+                                </td>
+                                <td>
+                                    <g:TextBox ui:field="txtName" addStyleNames="{res.style.txtName}"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <g:Label ui:field="lblStarted" text="Started" addStyleNames="{res.style.lblStarted}"/>
+                                </td>
+                                <td>
+                                    <input ui:field="txtDate" type="date" class="{res.style.datePicker}"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><g:Button text="Reset Form" ui:field="btnReset" addStyleNames="{res.style.btnReset}"/> </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>
